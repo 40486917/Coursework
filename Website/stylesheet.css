@@ -1,0 +1,439 @@
+body{
+	background-color: #32CD32;
+}
+
+header{
+width: 80%;
+margin: auto;
+overflow: hidden;
+text-align: center;
+min-height: 70px;
+padding-top: 30px;
+}
+
+a{
+	text-decoration: none;
+	color:#000000;
+}
+
+nav{
+	text-align: center;
+	margin:5px;
+}
+ 
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color:rgba(50, 150, 50, 1);
+	border-style:outset;
+	}
+ 
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#000000;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+ 
+nav a:hover { 
+	background-color: rgba(50, 100, 50, 1);
+    color:#000000;
+}
+
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; 
+}
+
+nav ul li:hover > ul{
+	display:inherit;
+}
+
+footer {
+	text-align: center;
+	clear:both;
+}
+
+.h2_underline{
+	text-decoration:underline;
+}
+
+.flexbox_container{
+	display:flex;
+	justify-content:center;
+}
+
+.image_fill{
+	height:100%;
+	width:100%;
+}
+
+.img{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	width:33.3%;
+	height:900px;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+.review_flexbox_container_1{
+	display:flex;
+	justify-content:center;
+	width:20%;
+	float:left;
+	height:1000px;
+}
+
+.review_flexbox_container_2{
+	display:flex;
+	justify-content:center;
+	width:80%;
+	height:400px;
+}
+
+.review_flexbox_container_3{
+	display:flex;
+	justify-content:center;
+	width:60%;
+	float:left;
+	height:600px;
+}
+
+.review_flexbox_container_4{
+	display:flex;
+	justify-content:center;
+	width:20%;
+	flex-direction:column;
+	height:600px;
+}
+
+#logo{
+	height:100px;
+	width:100px;
+}
+
+#heading{
+	text-align: center;
+	display:inline;
+}
+
+#intro{
+	border-style:inset;
+	width:50%;
+	text-align:center;
+	height:550px;
+	margin:5px;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#homepage_images{
+	width:50%;
+	margin:5px;
+	border-style:outset;
+	height:550px;
+}
+
+#Edinburgh{
+	border-style:inset;
+	margin:5px;
+	width:50%;
+	height:800px;
+	text-align: center;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#Dundee{
+	border-style:inset;
+	margin:5px;
+	width:50%;
+	height:800px;
+	text-align: center;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#Fife{
+	border-style:inset;
+	margin:5px;
+	width:50%;
+	height:800px;
+	text-align: center;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#NE_England{
+	border-style:inset;
+	margin:5px;
+	width:50%;
+	height:800px;
+	text-align: center;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#review_ratings{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	background-color:rgba(50, 250, 50, 1);
+	width:100%;
+}
+
+#building_image{
+	margin:5px;
+	border-style:outset;
+	width:100%;
+}
+
+#review_content{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	background-color:rgba(50, 250, 50, 1);
+	width:100%;
+}
+
+#map{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	background-color:rgba(50, 250, 50, 1);
+	height:50%;
+}
+
+#address{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	background-color:rgba(50, 250, 50, 1);
+	height:25%;
+}
+	
+#food_image{
+	margin:5px;
+	border-style:outset;
+	height:25%;
+}
+	
+#overall_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	background-color:rgba(50, 250, 50, 1);
+	width:100%
+}
+
+#food_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#service_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#atmosphere_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#venue_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#Edinburgh_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#Dundee_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#Fife_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#NE_England_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#restaurant_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#italian_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#burger_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#asian_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	float:right;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#takeaway_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#chinese_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#chippy_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#american_ratings{
+	margin:5px;
+	border-style:inset;
+	height:350px;
+	text-align:center;
+	width:25%;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#chinese{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	width:33.3%;
+	height:900px;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#chippy{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	width:33.4%;
+	height:900px;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#american{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	width:33.3%;
+	height:900px;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#italian{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	width:33.3%;
+	height:900px;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#burger{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	width:33.4%;
+	height:900px;
+	background-color:rgba(50, 250, 50, 1);
+}
+
+#asian{
+	text-align:center;
+	border-style:inset;
+	margin:5px;
+	width:33.3%;
+	height:900px;
+	background-color:rgba(50, 250, 50, 1);
+}
